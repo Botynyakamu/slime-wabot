@@ -33,9 +33,8 @@ handler.all = async function (m, { isBlocked }) {
         this.send2ButtonLoc(m.chat, logo, `
 ╭━━〔 List Sewa〕━✧
 │⬦ *1 Bulan* :      *Rp 15000*
-│⬦ *2 bulan* :      *Rp 20000*
-│⬦ *8 Bulan* :      *Rp 35000*
-│⬦ *12 Bulan* :      *Rp 45000*
+│⬦ *2 bulan* :      *Rp 25000*
+│⬦ *8 Bulan* :      *Rp 40000*
 ┝━━〔Payment〕━✧
 │⬦ Dana
 │⬦ Pulsa
@@ -70,7 +69,7 @@ Note: Syarat dan Ketentuan mungkin berlaku`.trim(), wm, 'Payment', '#payment', '
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Im SlimeBotz 🤖 || ⏰ Aktif selama ${uptime} || 👥 User : ${Object.keys(global.db.data.users).length} User || 🎐 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
+        await this.setStatus(`Im zifabotz 🤖 || ⏰ Aktif selama ${uptime} || 👥 User : ${Object.keys(global.db.data.users).length} User || 👾 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'}`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
