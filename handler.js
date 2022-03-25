@@ -799,7 +799,7 @@ await conn.sendMessage(jid, { "contentText": action === 'add' ? '─────
 *◇ Number*: ${require('awesome-phonenumber')(`+${m.participant.split`@`[0]}`).getNumber('international')}
 
 klick untuk mematikannya atau ketik #disable delete
-`.trim(), '🎮 SlimeBotz', 'DISABLE DELETE', '.disable delete', {
+`.trim(), '©️zifabotz', 'DISABLE DELETE', '.disable delete', {
       quoted: m.message,
       contextInfo: {
         mentionedJid: [m.participant]
