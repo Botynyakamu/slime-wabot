@@ -4,7 +4,7 @@ let handler = async (m, { conn, args }) => {
   if (!args) throw 'Masukkan Parameter'
   m.reply('Sedang Diproses...')
   let res = `https://api.xteam.xyz/randomimage/hentai?apikey=MIMINETBOT`
-  conn.sendFile(m.chat, res, 'hentai.jpg', `wangy wangy wangy`, m, false)
+  conn.sendFile(m.chat, res, 'hentai.jpg', `sange ye:v`, m, false)
 }
 handler.help = ['hentai'].map(v => v + ' ')
 handler.tags = ['anime']
