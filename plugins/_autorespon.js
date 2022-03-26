@@ -37,7 +37,7 @@ handler.all = async function (m, { isBlocked }) {
 │⬦ *8 Bulan* :      *Rp 40000*
 ┝━━〔Payment〕━✧
 │⬦ Dana
-│⬦ Pulsa
+│⬦ Gopay
 ╰━━━✧
 Note: Syarat dan Ketentuan mungkin berlaku`.trim(), wm, 'Payment', '#payment', 'Owner', '#owner', m)
 }
