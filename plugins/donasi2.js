@@ -5,8 +5,8 @@ let handler = async (m, { conn }) => {
 
 let str = `››╭─〘 *Donasi* 〙
 ╭╡
-│┝‷✧ *Pulsa:* 6282195470493
-│┝‷✧ *Dana:* 6282195470493
+│┝‷✧ *gopay:* 6285828764046
+│┝‷✧ *Dana:* 6285828764046
 │╰───···─────
 │⁺◛˖ Ingin Donasi? Chat nomor dibawah
 ╰──────────···───╮`
@@ -28,7 +28,7 @@ let fkon = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ?
         "descriptionCount": "999999999",
         "productImageCount": "1",
       },
-      "businessOwnerJid": "6281354079196@s.whatsapp.net",
+      "businessOwnerJid": "6285828764046@s.whatsapp.net",
       "contextInfo": {
         "forwardingScore": 9999,
         "isForwarded": false
